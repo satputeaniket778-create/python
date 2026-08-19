@@ -1,0 +1,7 @@
+name="aniket"
+age=22
+per=60.40
+
+print("Name:=",name,type(name))
+print("age:=",age,type(age))
+print("%:=",per,type(per))
