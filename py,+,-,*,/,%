@@ -1,0 +1,12 @@
+n1=100
+n2=25
+sm=n1+n2
+sb=n1-n2
+ml=n1*n2
+dv=n1/n2
+md=n1%n2
+print("sum:=",sm)
+print("sub:=",sb)
+print("mul:=",ml)
+print("div:=",dv)
+print("mod:=",md)
