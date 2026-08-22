@@ -1,0 +1,9 @@
+s="AniketSatpute"
+print(s)
+print("length:=",len(s))
+print("firts:=",s[0])
+print("last:=",s[-1])
+print("any position:=",s[5])
+print("[:6]:=",s[:6])
+print("6:",s[6:])
+print("[6:9]",s[6:8])
