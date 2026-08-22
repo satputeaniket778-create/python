@@ -1,0 +1,19 @@
+pwd=(input("enter a password:="))
+uc=0
+lc=0
+dg=0
+al=0
+for i in pwd:
+    if(pwd.isalnum()):
+        al=1
+    if(i.isupper()):
+        uc=1
+    if(i.islower()):
+        lc=1
+    if(i.isdigit()):
+        dg=1
+#print(uc,lc,dg)
+if(uc==1 and lc==1 and dg==1 and len(pwd)>=8 and al==0):
+   print("valid password")
+else:
+    print("invalid password")
